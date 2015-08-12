@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ruby-hl7/ruby-hl7-zps.svg)](https://travis-ci.org/ruby-hl7/ruby-hl7-zps)
+
 # HL7::ZPS
 
 Adds support for the ZPS segment to [`ruby-hl7`](https://github.com/ruby-hl7/ruby-hl7)
