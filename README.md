@@ -1,6 +1,6 @@
 # HL7::ZPS
 
-TODO: Write a gem description
+Adds support for the ZPS segment to [`ruby-hl7`](https://github.com/ruby-hl7/ruby-hl7)
 
 ## Installation
 
@@ -20,7 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+msg = HL7::Message.parse(hl7_with_zps)
+Array(msg[:ZPS]).each do |zps|
+  puts "Facility: #{zps.facility_name}"
+end
+```
 
 ## Contributing
 

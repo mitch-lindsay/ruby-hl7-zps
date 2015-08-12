@@ -1,6 +1,3 @@
-require "hl7/zps/version"
-require "ruby-hl7"
-
 module HL7
   class Message::Segment::ZPS < HL7::Message::Segment
     weight 12
